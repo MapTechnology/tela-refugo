@@ -186,26 +186,26 @@ class _GraphPageState extends State<GraphPage> {
                     )
                   },
                 ),
-                PopupMenuItem(
-                  child: const Text('Selecionar Máquinas'),
-                  value: 3,
-                  onTap: () => {
-                    Future.delayed(
-                      const Duration(seconds: 0),
-                      () => showDialog(
-                        context: context,
-                        builder: (context) => const AlertDialog(
-                          title: Text(
-                            'Selecionar Máquinas',
-                            textAlign: TextAlign.center,
-                            style: TextStyle(fontWeight: FontWeight.bold),
-                          ),
-                          content: SelecionaMaquina(),
-                        ),
-                      ),
-                    )
-                  },
-                ),
+                // PopupMenuItem(
+                //   child: const Text('Selecionar Máquinas'),
+                //   value: 3,
+                //   onTap: () => {
+                //     Future.delayed(
+                //       const Duration(seconds: 0),
+                //       () => showDialog(
+                //         context: context,
+                //         builder: (context) => const AlertDialog(
+                //           title: Text(
+                //             'Selecionar Máquinas',
+                //             textAlign: TextAlign.center,
+                //             style: TextStyle(fontWeight: FontWeight.bold),
+                //           ),
+                //           content: SelecionaMaquina(),
+                //         ),
+                //       ),
+                //     )
+                //   },
+                // ),
               ],
             ),
           )
